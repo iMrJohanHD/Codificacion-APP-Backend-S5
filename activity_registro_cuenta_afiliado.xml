@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollviewRegister"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroCuentaAfiliado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:padding="@dimen/padingLinearLayoutMainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtTituloTuinformación"
+            android:textColor="@color/colorNegro"
+            android:textSize="@dimen/txtTitulosRegister"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/editTxtRegisterNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:ems="15"
+            android:hint="@string/txt_register_nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTxtRegisterEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="@string/txtRegisterEdad"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/editTxtRegisterCedula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="@string/txt_register_cedula"
+            android:inputType="number" />
+
+        <ImageView
+            android:id="@+id/imgFotoCedulaCuenta"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:layout_width="@dimen/widthImgViewFotoCedula"
+            android:layout_height="@dimen/heightImgViewFotoCedula"
+            android:layout_gravity="center"></ImageView>
+        <Button
+            android:id="@+id/btnRegisterLoadCedula"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnRegisterAñadirCedula"
+            android:textColor="@color/colorBlanco"
+            android:background="@drawable/boton3"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTopBtnEntrarMainActivity"
+            android:text="@string/txtTituloRegisterAfiliacion"
+            android:textColor="@color/colorNegro"
+            android:textSize="@dimen/txtTitulosRegister"
+            android:textStyle="bold"></TextView>
+
+        <Spinner
+            android:id="@+id/spinnerNombreAfiliado"
+            android:layout_width="@dimen/widthSpinnerEmpresa"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/marginTopEditTextRegister"></Spinner>
+        <TextView
+            android:id="@+id/txtValorSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"></TextView>
+        <EditText
+            android:id="@+id/editTxtRegisterPlacaVehiculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="@string/editTxtRegisterPlacaVehiculo"
+            android:inputType="textPersonName" />
+        <!---<ImageView
+            android:id="@+id/imgSoatCuenta"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:layout_width="@dimen/widthImgViewFotoCedula"
+            android:layout_height="@dimen/heightImgViewFotoCedula"
+            android:layout_gravity="center"></ImageView>
+
+        <Button
+            android:id="@+id/btnRegisterLoadSoat"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnRegisterAñadirSoat"></Button>
+        <ImageView
+            android:id="@+id/imgTarjetaPropiedadCuenta"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:layout_width="@dimen/widthImgViewFotoCedula"
+            android:layout_height="@dimen/heightImgViewFotoCedula"
+            android:layout_gravity="center"></ImageView>
+        <Button
+            android:id="@+id/btnRegisterLoadTarjetaPropiedad"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnRegisterAñadirTarjetaPropiedad"></Button>
+        <ImageView
+            android:id="@+id/imgVehiculoCuenta"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:layout_width="@dimen/widthImgViewFotoCedula"
+            android:layout_height="@dimen/heightImgViewFotoCedula"
+            android:layout_gravity="center"></ImageView>
+        <Button
+            android:id="@+id/btnRegisterLoadVehiculo"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnRegisterAñadirVehiculo"></Button>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTopBtnEntrarMainActivity"
+            android:text="@string/txtTituloRegisterCuenta"
+            android:textColor="@color/colorNegro"
+            android:textSize="@dimen/txtTitulosRegister"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/editTxtRegisterCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/marginTopEditTextRegister"
+            android:ems="15"
+            android:hint="@string/editTxtRegisterCorreo"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTxtRegisterContraseña"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="@string/editTxtRegisterContraseña"
+            android:inputType="textPassword" />
+
+        <!--<EditText
+            android:id="@+id/editTxtRegisterContraseñaConfirmación"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="15"
+            android:hint="@string/editTxtRegisterContraseñaConfirmacion"
+            android:inputType="textPassword" />-->
+
+        <CheckBox
+            android:id="@+id/checkBoxTerminos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/txtTitulosRegister"
+            android:text="@string/checkBoxRegisterTerminos" />
+
+        <Button
+            android:id="@+id/btnRegisterRegistrarSocio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTopBtnEntrarMainActivity"
+            android:text="@string/btn_register_register_afiliacon"
+            android:theme="@style/btnRaisedLogin"
+            android:background="@drawable/boton1"/>
+
+    </LinearLayout>
+</ScrollView>
